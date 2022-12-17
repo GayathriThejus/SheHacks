@@ -1,0 +1,227 @@
+.Desktop1 {
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    overflow: hidden;
+}
+.Logo {
+    fill: rgba(145, 201, 164, 1);
+    height: 281px;
+    width: 297px;
+    position: absolute;
+    left: 548px;
+    top: 371px;
+}
+.Spend {
+    color: rgba(255, 255, 255, 1);
+    width: 217px;
+    position: absolute;
+    left: 628px;
+    top: 475px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    line-height: normal;
+    text-indent: normal;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    vertical-align: top;
+    white-space: pre;
+}
+.Ex {
+    color: rgba(62, 60, 60, 1);
+    width: 131px;
+    position: absolute;
+    left: 827px;
+    top: 455px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 96px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    line-height: normal;
+    text-indent: normal;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    vertical-align: top;
+}
+.Rectangle1 {
+    fill: rgba(145, 201, 164, 1);
+    height: 89px;
+    width: 443.9079895019531px;
+    position: absolute;
+    left: 483px;
+    top: 693.3939208984375px;
+}
+.StartBudgeting {
+    color: rgba(255, 255, 255, 1);
+    width: 286px;
+    position: absolute;
+    left: 577px;
+    top: 710px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    line-height: normal;
+    text-indent: normal;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    vertical-align: top;
+}
+.Ellipse1 {
+    fill: rgba(128, 167, 142, 1);
+    height: 250px;
+    width: 819px;
+    position: absolute;
+    left: -18px;
+    top: -21px;
+}
+.Ellipse2 {
+    height: 365.12841796875px;
+    width: 892.5084228515625px;
+    transform: rotate(-8deg);
+    position: absolute;
+    left: 819.9085693359375px;
+    top: 92.37149047851562px;
+}
+.Ellipse4 {
+    fill: rgba(128, 167, 142, 1);
+    height: 344.024169921875px;
+    width: 1494.8704833984375px;
+    transform: rotate(-180deg);
+    position: absolute;
+    left: 1484.9989013671875px;
+    top: 1152.024169921875px;}
+    .Desktop2 {
+        background-color: rgba(255, 255, 255, 1);
+        position: relative;
+        overflow: hidden;
+    }
+    .Rectangle2 {
+        background-color: rgba(145, 201, 164, 1);
+        height: 168px;
+        width: 1468px;
+        position: absolute;
+        left: -14px;
+        top: 87px;
+    }
+    .Youretooclose {
+        color: rgba(0, 0, 0, 1);
+        width: 806px;
+        position: absolute;
+        left: 749px;
+        top: 418px;
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 64px;
+        text-transform: none;
+        text-decoration: none;
+        letter-spacing: normal;
+        line-height: normal;
+        text-indent: normal;
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        vertical-align: top;
+    }
+    .Barometer1 {
+        background: url('/generated/cf700fd64c4ea2f5c13342816f472996b8296328.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 326px;
+        width: 562px;
+        position: absolute;
+        left: 158px;
+        top: 336px;
+    }
+    .CurrentEarnings {
+        color: rgba(0, 0, 0, 1);
+        width: 320px;
+        position: absolute;
+        left: 450px;
+        top: 729px;
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 32px;
+        text-transform: none;
+        text-decoration: none;
+        letter-spacing: normal;
+        line-height: normal;
+        text-indent: normal;
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        vertical-align: top;
+    }
+    .Savings {
+        color: rgba(0, 0, 0, 1);
+        width: 320px;
+        position: absolute;
+        left: 589px;
+        top: 864px;
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 32px;
+        text-transform: none;
+        text-decoration: none;
+        letter-spacing: normal;
+        line-height: normal;
+        text-indent: normal;
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        vertical-align: top;
+    }
+    .ExpectedBudget {
+        color: rgba(0, 0, 0, 1);
+        width: 364px;
+        position: absolute;
+        left: 450px;
+        top: 809px;
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 32px;
+        text-transform: none;
+        text-decoration: none;
+        letter-spacing: normal;
+        line-height: normal;
+        text-indent: normal;
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        vertical-align: top;
+    }
+    .Rectangle3 {
+        background-color: rgba(114, 188, 130, 1);
+        height: 71px;
+        width: 308px;
+        position: absolute;
+        left: 733px;
+        top: 708px;
+        border-radius: 50px;
+    }
+    
