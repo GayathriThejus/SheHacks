@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="./desktop-2.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700;800;900&display=swap"
     />
   </head>
   <body>
     <div class="desktop-2">
-      <div class="header1"></div>
-      <img class="logo-icon1" alt="" src="public/logo.svg" />
-      <div class="spend1">Spend</div>
-      <div class="ex1">EX</div>
-      <div class="dashboard1">DASHBOARD</div>
-      <div class="start-budgeting1">START BUDGETING</div>
-      <div class="track-month1">TRACK MONTH</div>
-      <div class="log-out1">LOG OUT</div>
-      <div class="rectangle-div"></div>
+      <div class="header3"></div>
+      <img class="logo-icon4" alt="" src="public/logo.svg" />
+      <div class="spend4">Spend</div>
+      <div class="ex4">EX</div>
+      <div class="dashboard3" id="dASHBOARDText">DASHBOARD</div>
+      <div class="start-budgeting3">START BUDGETING</div>
+      <div class="track-month3" id="tRACKMONTHText">TRACK MONTH</div>
+      <div class="log-out3" id="lOGOUTText">LOG OUT</div>
+      <div class="rectangle-div3"></div>
       <div class="tell-us-a-bit">TELL US A BIT</div>
       <div class="earnings">Earnings</div>
       <div class="expenses">Expenses</div>
@@ -34,18 +34,39 @@
       <img class="plus-icon" alt="" src="public/plus@2x.png" /><img
         class="plus-icon1"
         alt=""
-        src="public/plus1@2x.png"
-      /><img class="plus-icon2" alt="" src="public/plus1@2x.png" /><img
+        src="public/plus@2x.png"
+      /><img class="plus-icon2" alt="" src="public/plus@2x.png" /><img
+        class="error-icon"
+        alt=""
+        src="public/error@2x.png"
+      /><img class="ellipse-icon5" alt="" src="public/ellipse-1.svg" /><img
         class="plus-icon3"
         alt=""
-        src="public/plus1@2x.png"
-      /><img class="error-icon" alt="" src="public/error@2x.png" /><img
-        class="ellipse-icon"
-        alt=""
-        src="public/ellipse-1.svg"
+        src="public/plus3@2x.png"
       />
     </div>
+
+    <script>
+      var dASHBOARDText = document.getElementById("dASHBOARDText");
+      if (dASHBOARDText) {
+        dASHBOARDText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var tRACKMONTHText = document.getElementById("tRACKMONTHText");
+      if (tRACKMONTHText) {
+        tRACKMONTHText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+      
+      var lOGOUTText = document.getElementById("lOGOUTText");
+      if (lOGOUTText) {
+        lOGOUTText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
   </body>
 </html>
-
- 
