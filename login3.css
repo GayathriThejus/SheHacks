@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.ex2 {
+  position: absolute;
+  top: 156px;
+  left: 276px;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  color: var(--color-white);
+  display: inline-block;
+  width: 205px;
+  height: 52px;
+}
+.login1,
+.logo-icon2,
+.spend2 {
+  position: absolute;
+  top: 107px;
+  left: 141px;
+  width: 135px;
+  height: 123px;
+}
+.login1,
+.spend2 {
+  top: 161px;
+  left: 174px;
+  font-weight: 800;
+  display: inline-block;
+  width: 229px;
+  height: 69px;
+}
+.login1 {
+  top: 323px;
+  left: 662px;
+  font-size: var(--font-size-3xl);
+  width: 298px;
+  height: 95px;
+}
+.ellipse-icon2,
+.ellipse-icon3 {
+  position: absolute;
+  top: 470px;
+  left: 960px;
+  width: 553px;
+  height: 499px;
+}
+.ellipse-icon3 {
+  top: 896px;
+  left: 590px;
+}
+.rectangle-input,
+.rectangle-textarea {
+  border: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 434px;
+  left: 481px;
+  border-radius: var(--br-sm);
+  width: 507px;
+  height: 78px;
+}
+.rectangle-textarea {
+  top: 528px;
+}
+.password,
+.username {
+  position: absolute;
+  top: 547px;
+  left: 501px;
+  font-weight: 300;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 179px;
+  height: 39px;
+}
+.username {
+  top: 453px;
+}
+.forgotten-password,
+.sign-up-create-a-new-account {
+  position: absolute;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.forgotten-password {
+  top: 777px;
+  left: 614px;
+  font-weight: 300;
+  color: var(--color-gray-200);
+  width: 345px;
+  height: 44px;
+}
+.sign-up-create-a-new-account {
+  top: 43px;
+  left: 1074px;
+  font-weight: 200;
+  width: 325px;
+  height: 47px;
+}
+.rectangle-div1 {
+  position: absolute;
+  top: 642px;
+  left: 601px;
+  background-color: var(--color-turquoise-100);
+  width: 210px;
+  height: 56px;
+  cursor: pointer;
+}
+.login2 {
+  position: absolute;
+  top: 648px;
+  left: 671px;
+  font-weight: 600;
+  color: var(--color-gray-200);
+  display: inline-block;
+  width: 116px;
+  height: 44px;
+}
+.login {
+  position: relative;
+  background-color: #d6f3e0;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
