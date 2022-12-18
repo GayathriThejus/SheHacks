@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.ellipse-icon4 {
+  position: absolute;
+  top: 280px;
+  left: 74px;
+  width: 67px;
+  height: 62px;
+  mix-blend-mode: normal;
+}
+.header2 {
+  position: absolute;
+  top: 92px;
+  left: 0;
+  background-color: var(--color-turquoise-100);
+  width: 1468px;
+  height: 168px;
+}
+.ex3,
+.logo-icon3,
+.spend3 {
+  position: absolute;
+  top: 107px;
+  left: 141px;
+  width: 135px;
+  height: 123px;
+}
+.ex3,
+.spend3 {
+  top: 157px;
+  left: 174px;
+  font-weight: 800;
+  display: inline-block;
+  width: 131px;
+  height: 61px;
+}
+.ex3 {
+  top: 159px;
+  left: 276px;
+  color: var(--color-white);
+  width: 77px;
+  height: 59px;
+}
+.dashboard2,
+.log-out2,
+.start-budgeting2,
+.track-month2 {
+  position: absolute;
+  top: 211px;
+  font-size: var(--font-size-base);
+  font-weight: 200;
+  display: inline-block;
+  cursor: pointer;
+}
+.log-out2 {
+  left: 1301px;
+}
+.dashboard2,
+.start-budgeting2,
+.track-month2 {
+  width: 189px;
+  height: 51px;
+}
+.track-month2 {
+  left: 1112px;
+  color: var(--color-white);
+}
+.dashboard2,
+.start-budgeting2 {
+  left: 900px;
+}
+.dashboard2 {
+  left: 752px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 374px;
+  left: 62px;
+  border-radius: var(--br-sm);
+  width: 853px;
+  height: 496px;
+  object-fit: cover;
+}
+.icon-calendar1 {
+  position: absolute;
+  height: 4.1%;
+  width: 2.57%;
+  top: 28.32%;
+  right: 91.25%;
+  bottom: 67.58%;
+  left: 6.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.january,
+.present1 {
+  position: absolute;
+  top: 303px;
+  left: 1078px;
+  font-weight: 800;
+  display: inline-block;
+}
+.present1 {
+  top: 306px;
+  left: 168px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  cursor: pointer;
+}
+.previous3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.previous2 {
+  position: absolute;
+  top: 306px;
+  left: 285px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  color: var(--color-turquoise-100);
+  display: inline-block;
+}
+.rectangle-div2,
+.rectangle-icon2 {
+  position: absolute;
+  border-radius: var(--br-sm);
+  width: 436px;
+}
+.rectangle-div2 {
+  top: 394px;
+  left: 949px;
+  background-color: var(--color-beige-100);
+  height: 87px;
+}
+.rectangle-icon2 {
+  top: 515px;
+  left: 957px;
+  height: 334px;
+}
+.bills1,
+.income1,
+.purchase1,
+.rent1 {
+  position: absolute;
+  top: 419px;
+  left: 1055px;
+  font-weight: 800;
+  color: var(--color-turquoise-100);
+  display: inline-block;
+  width: 133px;
+  height: 37px;
+}
+.bills1,
+.purchase1,
+.rent1 {
+  top: 545px;
+  width: 87px;
+}
+.bills1,
+.purchase1 {
+  top: 671px;
+  width: 89px;
+}
+.purchase1 {
+  top: 783px;
+  left: 1037px;
+  width: 180px;
+}
+.rs100001,
+.rs30001,
+.rs45000,
+.rs700001 {
+  position: absolute;
+  top: 425px;
+  left: 1269px;
+  font-size: var(--font-size-lg);
+  font-weight: 200;
+  display: inline-block;
+  width: 104px;
+  height: 28px;
+}
+.rs100001,
+.rs30001,
+.rs45000 {
+  top: 549px;
+  left: 1273px;
+  width: 100px;
+}
+.rs30001,
+.rs45000 {
+  top: 675px;
+  left: 1282px;
+  width: 91px;
+}
+.rs45000 {
+  top: 791px;
+  left: 1265px;
+  width: 109px;
+  height: 27px;
+}
+.icon-document1,
+.icon-dollar1,
+.icon-home1,
+.icon-pencil2,
+.icon-pencil3,
+.icon-shopping-cart-outline1 {
+  position: absolute;
+  height: 5.12%;
+  width: 3.85%;
+  top: 75.74%;
+  right: 28.43%;
+  bottom: 19.14%;
+  left: 67.72%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-document1,
+.icon-dollar1,
+.icon-home1,
+.icon-pencil2,
+.icon-pencil3 {
+  width: 2.73%;
+  top: 40.15%;
+  right: 28.64%;
+  bottom: 54.72%;
+  left: 68.63%;
+}
+.icon-document1,
+.icon-home1,
+.icon-pencil2,
+.icon-pencil3 {
+  height: 4.94%;
+  width: 3.5%;
+  top: 52.26%;
+  right: 28.29%;
+  bottom: 42.8%;
+  left: 68.21%;
+}
+.icon-document1,
+.icon-pencil2,
+.icon-pencil3 {
+  height: 5.12%;
+  width: 3.37%;
+  top: 64.37%;
+  right: 28.63%;
+  bottom: 30.5%;
+  left: 68%;
+}
+.icon-pencil2,
+.icon-pencil3 {
+  height: 3.45%;
+  width: 2.52%;
+  top: 40.99%;
+  right: 0;
+  bottom: 55.56%;
+  left: 97.48%;
+}
+.icon-pencil3 {
+  height: 27.95%;
+  top: 52.26%;
+  bottom: 19.79%;
+}
+.line-icon1 {
+  position: absolute;
+  top: 329px;
+  left: 296px;
+  width: 97.01px;
+  height: 2px;
+}
+.desktop-3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
