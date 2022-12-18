@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 280px;
+  left: 74px;
+  width: 67px;
+  height: 62px;
+  mix-blend-mode: normal;
+}
+.header1 {
+  position: absolute;
+  top: 87px;
+  left: -14px;
+  background-color: var(--color-turquoise-100);
+  width: 1468px;
+  height: 168px;
+}
+.ex1,
+.logo-icon1,
+.spend1 {
+  position: absolute;
+  top: 107px;
+  left: 141px;
+  width: 135px;
+  height: 123px;
+}
+.ex1,
+.spend1 {
+  top: 157px;
+  left: 174px;
+  font-weight: 800;
+  display: inline-block;
+  width: 131px;
+  height: 61px;
+}
+.ex1 {
+  top: 159px;
+  left: 276px;
+  color: var(--color-white);
+  width: 77px;
+  height: 59px;
+}
+.dashboard1,
+.log-out1,
+.start-budgeting1,
+.track-month1 {
+  position: absolute;
+  top: 211px;
+  font-size: var(--font-size-base);
+  font-weight: 200;
+  display: inline-block;
+}
+.log-out1 {
+  left: 1301px;
+  cursor: pointer;
+}
+.dashboard1,
+.start-budgeting1,
+.track-month1 {
+  width: 189px;
+  height: 51px;
+}
+.track-month1 {
+  left: 1112px;
+  color: var(--color-white);
+}
+.dashboard1,
+.start-budgeting1 {
+  left: 900px;
+  cursor: pointer;
+}
+.dashboard1 {
+  left: 752px;
+}
+.icon-calendar {
+  position: absolute;
+  height: 4.1%;
+  width: 2.57%;
+  top: 28.32%;
+  right: 91.25%;
+  bottom: 67.58%;
+  left: 6.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.february {
+  position: absolute;
+  top: 303px;
+  left: 1078px;
+  font-weight: 800;
+  color: var(--color-gray-200);
+  display: inline-block;
+}
+.image-2-icon {
+  position: absolute;
+  top: 374px;
+  left: 62px;
+  border-radius: var(--br-sm);
+  width: 853px;
+  height: 496px;
+  object-fit: cover;
+}
+.ellipse-icon1,
+.rectangle-icon {
+  position: absolute;
+  top: 665px;
+  left: 628px;
+  width: 12px;
+  height: 12px;
+}
+.rectangle-icon {
+  top: 685px;
+  left: 588px;
+  border-radius: var(--br-sm);
+  width: 96px;
+  height: 37px;
+}
+.present,
+.today {
+  position: absolute;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.today {
+  top: 692px;
+  left: 602px;
+  font-weight: 200;
+  color: #fffefe;
+}
+.present {
+  top: 304px;
+  left: 161px;
+  font-weight: 300;
+  color: var(--color-turquoise-100);
+}
+.previous1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.previous {
+  position: absolute;
+  top: 304px;
+  left: 276px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  display: inline-block;
+  cursor: pointer;
+}
+.rectangle-div,
+.rectangle-icon1 {
+  position: absolute;
+  left: 949px;
+  border-radius: var(--br-sm);
+  width: 432px;
+}
+.rectangle-div {
+  top: 383px;
+  background-color: var(--color-beige-100);
+  height: 91px;
+}
+.rectangle-icon1 {
+  top: 510px;
+  height: 350.5px;
+}
+.bills,
+.income,
+.purchase,
+.rent {
+  position: absolute;
+  top: 409px;
+  left: 1046px;
+  font-weight: 800;
+  color: var(--color-turquoise-100);
+  display: inline-block;
+}
+.bills,
+.purchase,
+.rent {
+  top: 541px;
+}
+.bills,
+.purchase {
+  top: 673px;
+}
+.purchase {
+  top: 791px;
+  left: 1028px;
+}
+.rs10000,
+.rs11000,
+.rs3000,
+.rs70000 {
+  position: absolute;
+  top: 416px;
+  left: 1258px;
+  font-size: var(--font-size-lg);
+  font-weight: 200;
+  display: inline-block;
+}
+.rs10000,
+.rs11000,
+.rs3000 {
+  top: 546px;
+  left: 1262px;
+}
+.rs11000,
+.rs3000 {
+  top: 678px;
+  left: 1271px;
+}
+.rs11000 {
+  top: 799px;
+  left: 1267px;
+}
+.line-icon {
+  position: absolute;
+  top: 327px;
+  left: 157.99px;
+  width: 86.01px;
+  height: 2px;
+}
+.icon-location,
+.icon-pencil {
+  position: absolute;
+  height: 29.3%;
+  width: 2.5%;
+  top: 54.49%;
+  right: 0.83%;
+  bottom: 16.21%;
+  left: 96.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-location {
+  height: 5.57%;
+  width: 3.16%;
+  top: 58.98%;
+  right: 54.55%;
+  bottom: 35.45%;
+  left: 42.29%;
+}
+.icon-document,
+.icon-dollar,
+.icon-home,
+.icon-pencil1,
+.icon-shopping-cart-outline {
+  position: absolute;
+  height: 5.37%;
+  width: 3.82%;
+  top: 76.46%;
+  right: 29.03%;
+  bottom: 18.16%;
+  left: 67.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-document,
+.icon-dollar,
+.icon-home,
+.icon-pencil1 {
+  width: 2.71%;
+  top: 39.16%;
+  right: 29.24%;
+  bottom: 55.47%;
+  left: 68.06%;
+}
+.icon-document,
+.icon-home,
+.icon-pencil1 {
+  height: 5.18%;
+  width: 3.47%;
+  top: 51.86%;
+  right: 28.89%;
+  bottom: 42.97%;
+  left: 67.64%;
+}
+.icon-document,
+.icon-pencil1 {
+  height: 5.37%;
+  width: 3.34%;
+  top: 64.55%;
+  right: 29.23%;
+  bottom: 30.08%;
+  left: 67.43%;
+}
+.icon-pencil1 {
+  height: 3.61%;
+  width: 2.5%;
+  top: 40.04%;
+  right: 0.83%;
+  bottom: 56.35%;
+  left: 96.67%;
+}
+.desktop-4 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
