@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700;800;900&display=swap"
     />
   </head>
   <body>
     <div class="desktop-1">
       <div class="header"></div>
-      <div class="youre-too-close">You’re too close!</div>
+      <div class="youre-saving">You’re Saving!</div>
       <img class="barometer-1-icon" alt="" src="public/barometer-1@2x.png" />
       <div class="current-earnings">Current Earnings</div>
       <div class="savings">Savings</div>
@@ -26,13 +26,42 @@
       <div class="spend">Spend</div>
       <div class="ex">EX</div>
       <div class="dashboard">DASHBOARD</div>
-      <div class="start-budgeting">START BUDGETING</div>
-      <div class="track-month">TRACK MONTH</div>
-      <div class="log-out">LOG OUT</div>
+      <div class="start-budgeting" id="sTARTBUDGETINGText">START BUDGETING</div>
+      <div class="track-month" id="tRACKMONTHText">TRACK MONTH</div>
+      <div class="log-out" id="lOGOUTText">LOG OUT</div>
       <div class="save-quicker-youre-nearing-t">
         Save quicker, you’re nearing the expected budget
       </div>
+      <button class="txtfieldsavings2"></button
+      ><button class="txtfieldsavings3"></button>
+      <div class="rs26000">Rs.26,000</div>
+      <button class="txtfieldsavings4"></button>
+      <div class="rs118000">Rs.1,18,000</div>
+      <div class="rs50000">Rs.50,000</div>
+      <b class="welcome-xyz"> Welcome, xyz !</b>
     </div>
+
+    <script>
+      var sTARTBUDGETINGText = document.getElementById("sTARTBUDGETINGText");
+      if (sTARTBUDGETINGText) {
+        sTARTBUDGETINGText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-2.html";
+        });
+      }
+      
+      var tRACKMONTHText = document.getElementById("tRACKMONTHText");
+      if (tRACKMONTHText) {
+        tRACKMONTHText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+      
+      var lOGOUTText = document.getElementById("lOGOUTText");
+      if (lOGOUTText) {
+        lOGOUTText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
   </body>
 </html>
-
