@@ -1,7 +1,7 @@
 # TINK-HER-HACK SpendEx
 A web application to track your budget 
 
-![logo]("C:\Users\basila\Documents\logo.jpg")
+
 ## Team Members
 The Team members are:
 * [Gayathri Thejus](https://github.com/GayathriThejus/)
