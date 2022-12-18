@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700;800;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-3">
+      <img class="ellipse-icon4" alt="" src="public/ellipse-3.svg" />
+      <div class="header2"></div>
+      <img class="logo-icon3" alt="" src="public/logo.svg" />
+      <div class="spend3">Spend</div>
+      <div class="ex3">EX</div>
+      <div class="log-out2" id="lOGOUTText">LOG OUT</div>
+      <div class="track-month2" id="tRACKMONTHText">TRACK MONTH</div>
+      <div class="start-budgeting2" id="sTARTBUDGETINGText">
+        START BUDGETING
+      </div>
+      <div class="dashboard2" id="dASHBOARDText">DASHBOARD</div>
+      <img class="image-1-icon" alt="" src="public/image-1@2x.png" /><img
+        class="icon-calendar1"
+        alt=""
+        src="public/-icon-calendar.svg"
+      />
+      <div class="january">JANUARY</div>
+      <div class="present1" id="pRESENTText">PRESENT</div>
+      <div class="previous2"><p class="previous3">PREVIOUS</p></div>
+      <div class="rectangle-div2"></div>
+      <img class="rectangle-icon2" alt="" src="public/rectangle-61.svg" />
+      <div class="income1">INCOME</div>
+      <div class="rent1">RENT</div>
+      <div class="bills1">BILLS</div>
+      <div class="purchase1">PURCHASE</div>
+      <div class="rs700001">Rs.70000</div>
+      <div class="rs100001">Rs.10000</div>
+      <div class="rs30001">Rs.3000</div>
+      <div class="rs45000">Rs.45000</div>
+      <img
+        class="icon-shopping-cart-outline1"
+        alt=""
+        src="public/-icon-shopping-cart-outline1.svg"
+      /><img class="icon-dollar1" alt="" src="public/-icon-dollar1.svg" /><img
+        class="icon-home1"
+        alt=""
+        src="public/-icon-home1.svg"
+      /><img
+        class="icon-document1"
+        alt=""
+        src="public/-icon-document1.svg"
+      /><img class="icon-pencil2" alt="" src="public/-icon-pencil2.svg" /><img
+        class="icon-pencil3"
+        alt=""
+        src="public/-icon-pencil3.svg"
+      /><img class="line-icon1" alt="" src="public/line-2.svg" />
+    </div>
+
+    <script>
+      var lOGOUTText = document.getElementById("lOGOUTText");
+      if (lOGOUTText) {
+        lOGOUTText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      
+      var tRACKMONTHText = document.getElementById("tRACKMONTHText");
+      if (tRACKMONTHText) {
+        tRACKMONTHText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+      
+      var sTARTBUDGETINGText = document.getElementById("sTARTBUDGETINGText");
+      if (sTARTBUDGETINGText) {
+        sTARTBUDGETINGText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-2.html";
+        });
+      }
+      
+      var dASHBOARDText = document.getElementById("dASHBOARDText");
+      if (dASHBOARDText) {
+        dASHBOARDText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var pRESENTText = document.getElementById("pRESENTText");
+      if (pRESENTText) {
+        pRESENTText.addEventListener("click", function (e) {
+          window.location.href = "./desktop-4.html";
+        });
+      }
+      </script>
+  </body>
+</html>
